@@ -1,0 +1,17 @@
+package Soft;
+import java.util.*;
+public class simpleIntrest {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the principal amount");
+		float p = sc.nextFloat();
+		System.out.println("Enter the time");
+		float t = sc.nextFloat();
+		System.out.println("Enter rate of intrest");
+		float r = sc.nextFloat();
+		float simpleintrest = (p*t*r) /100;
+		System.out.println(simpleintrest);
+		
+	}
+
+}
