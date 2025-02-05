@@ -1,0 +1,21 @@
+package Soft;
+import java.util.*;
+public class eligibleVote {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter age:");
+		int age = sc.nextInt();
+		int agee = 0;
+		if(age>=18) {
+			System.out.println("You are eligible to vote");
+		}
+			else if(age<=18) {
+			 agee = 18-age;
+			 System.out.println("you are not eligible to vote you "
+						+ "should wait:"+agee+ "years");
+			}
+		
+		 
+	}
+
+}
