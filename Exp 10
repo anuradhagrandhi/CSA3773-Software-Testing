@@ -1,0 +1,14 @@
+package Soft;
+import java.util.*;
+public class SquareAndCubeDecimal {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the decimal value:");
+	int decimal = sc.nextInt();
+		int result = decimal*decimal;
+		int result2 = decimal*decimal*decimal;
+		System.out.println("Square:"+result);
+		System.out.println("cube:"+result2);
+	}
+
+}
